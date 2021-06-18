@@ -128,3 +128,33 @@ var myCustomObj = {
      }
  }
  myObj.timer()
+
+
+
+//  privet function 
+
+{
+    let a = 10;
+    let b = 20;
+    const pi = 3.1416;
+    console.log(a + b + pi);
+}
+
+// console.log(a + b + pi); baire call korle erro asbe
+
+
+
+{
+    var myFunc = function() {
+        var a = 'Shamim Ahmed';
+        console.log(a);
+    }
+}
+myFunc();
+
+// uporer function let , const diye korle error asbe
+
+{let func = function() {
+    let name = 'shamim ahmed';
+    console.log(name);
+}}

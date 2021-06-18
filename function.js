@@ -42,7 +42,7 @@ aFunc();
 const aFunc6 = () => console.log('ES6 function demo' );
 aFunc6();
 
-*/
+
 
 
 
@@ -69,4 +69,11 @@ function third() {
 
 first();
 
+*/
 
+// ifi invoked function
+
+(function DemoFunc() {
+    var msg = 'Hello World!';
+    console.log(msg);
+}) ();
